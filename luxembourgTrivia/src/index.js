@@ -24,14 +24,15 @@ var questions = [
         "Luxembourg is landlocked by the following three countries:": [
             "Germany, France and Belgium",
             "Germany, France and Holland",
-            "Germany, Poland and Austria"
+            "Germany, Poland and Austria",
+            "Italy, Switzerland and Germany"
         ]
     },
     {
         "How many official languages does Luxembourg have?": [
-            "One",
-            "Two",
-            "Three",
+            "Luxembourg has one official lanugage.",
+            "Luxembourg has two official languages",
+            "Luxembourg has three official languages",
             "Luxembourg does not have an official language"
         ]
     },
@@ -45,10 +46,10 @@ var questions = [
     },
     {
         "In what year did Luxembourg become independent?": [
-            "963",
-            "1354",
-            "1814",
-            "1945"
+            "nine hundred and sixty-three",
+            "thirteen fifty-four",
+            "eighteen fourteen",
+            "nineteen forty-five"
         ]
     },
     {
@@ -79,7 +80,8 @@ var questions = [
         "Which of the following statements is true?": [
             "Luxembourg is a founding member of the European Union.",
             "Luxembourg borders an ocean.",
-            "Luxembourg shares a time zone with London."
+            "Luxembourg shares a time zone with London.",
+            "Luxembourg has three international airports."
         ]
     },
     {
@@ -94,169 +96,169 @@ var questions = [
         "Voting in Luxembourg is mandatory.": [
             "Yes, but only for citizens.",
             "Yes, everyone living in Luxembourg needs to vote.",
-            "No."
+            "No.",
+            "Yes, but only if you were born in Luxembourg."
         ]
     },
-    // {
-    //     "Who invented the story of Rudolph?": [
-    //         "Robert May",
-    //         "Johnny Marks",
-    //         "Santa",
-    //         "J.K. Rowling"
-    //     ]
-    // },
-    // {
-    //     "In what location will you not find reindeer?": [
-    //         "North Pole",
-    //         "Lapland",
-    //         "Korvatunturi mountain",
-    //         "Finland"
-    //     ]
-    // },
-    // {
-    //     "What Makes Santa's Reindeer Fly?": [
-    //         "Magical Reindeer Dust",
-    //         "Fusion",
-    //         "Amanita muscaria",
-    //         "Elves"
-    //     ]
-    // },
-    // {
-    //     "Including Rudolph, how many reindeer hooves are there?": [
-    //         "36",
-    //         "24",
-    //         "16",
-    //         "8"
-    //     ]
-    // },
-    // {
-    //     "Santa only has one female reindeer. Which one is it?": [
-    //         "Vixen",
-    //         "Clarice",
-    //         "Cupid",
-    //         "Cupid"
-    //     ]
-    // },
-    // {
-    //     "In the 1964 classic Rudolph The Red Nosed Reindeer, what was the snowman narrators name?": [
-    //         "Sam",
-    //         "Frosty",
-    //         "Burl",
-    //         "Snowy"
-    //     ]
-    // },
-    // {
-    //     "What was Rudolph's father's name?": [
-    //         "Donner",
-    //         "Dasher",
-    //         "Blixen",
-    //         "Comet"
-    //     ]
-    // },
-    // {
-    //     "In the 1964 movie, What was the name of the coach of the Reindeer Games?": [
-    //         "Comet",
-    //         "Blixen",
-    //         "Donner",
-    //         "Dasher"
-    //     ]
-    // },
-    // {
-    //     "In the 1964 movie, what is the name of the deer that Rudolph befriends at the reindeer games?": [
-    //         "Fireball",
-    //         "Clarice",
-    //         "Jumper",
-    //         "Vixen"
-    //     ]
-    // },
-    // {
-    //     "In the 1964 movie, How did Donner, Rudolph's father, try to hide Rudolph's nose?": [
-    //         "Black mud",
-    //         "Bag",
-    //         "Pillow case",
-    //         "Sock"
-    //     ]
-    // },
-    // {
-    //     "In the 1964 movie, what does the Misfit Elf want to be instead of a Santa Elf?": [
-    //         "Dentist",
-    //         "Reindeer",
-    //         "Toy maker",
-    //         "Candlestick maker"
-    //     ]
-    // },
-    // {
-    //     "In the 1964 movie,what was the Bumble's one weakness?": [
-    //         "Could not swim",
-    //         "Always hungry",
-    //         "Candy canes",
-    //         "Cross eyed"
-    //     ]
-    // },
-    // {
-    //     "In the 1964 movie, what is Yukon Cornelius really in search of?": [
-    //         "Peppermint",
-    //         "Gold",
-    //         "India",
-    //         "Polar Bears"
-    //     ]
-    // },
-    // {
-    //     "In the 1964 movie, why is the train on the Island of Misfit Toys?": [
-    //         "Square wheels",
-    //         "No Engine",
-    //         "Paint does not match",
-    //         "It does not toot"
-    //     ]
-    // },
-    // {
-    //     "In the 1964 movie, what is the name of the Jack in the Box?": [
-    //         "Charlie",
-    //         "Sam",
-    //         "Billy",
-    //         "Jack"
-    //     ]
-    // },
-    // {
-    //     "In the 1964 movie, why did Santa Claus almost cancel Christmas?": [
-    //         "Storm",
-    //         "No snow",
-    //         "No toys",
-    //         "The Reindeer were sick"
-    //     ]
-    // },
-    // {
-    //     "In the 1964 movie, what animal noise did the elf make to distract the Bumble?": [
-    //         "Oink",
-    //         "Growl",
-    //         "Bark",
-    //         "Meow"
-    //     ]
-    // },
-    // {
-    //     "In the 1964 movie, what is the name of the prospector?": [
-    //         "Yukon Cornelius",
-    //         "Slider Sam",
-    //         "Bumble",
-    //         "Jack"
-    //     ]
-    // },
-    // {
-    //     "How far do reindeer travel when they migrate?": [
-    //         "3000 miles",
-    //         "700 miles",
-    //         "500 miles",
-    //         "0 miles"
-    //     ]
-    // },
-    // {
-    //     "How fast can a reindeer run?": [
-    //         "48 miles per hour",
-    //         "17 miles per hour",
-    //         "19 miles per hour",
-    //         "14 miles per hour"
-    //     ]
-    // }
+    {
+        "Which of the following companies has European headquarters in Luxembourg?": [
+            "PayPal",
+            "Sony",
+            "Coca-Cola",
+            "Toyota"
+        ]
+    },
+    {
+        "Which statement is true?": [
+            "Luxembourg has no Air-Force.",
+            "Luxembourg has no Army.",
+            "Luxembourg has no professional fire fighters.",
+            "Luxembourg has no highways."
+        ]
+    },
+    {
+        "What was the name of the currency used in Luxembourg before the introduction of the Euro?": [
+            "Franc",
+            "Mark",
+            "Schilling",
+            "Dollar"
+        ]
+    },
+    {
+        "Which global satellite operator is headquartered in Luxembourg?": [
+            "SES",
+            "Start One",
+            "Satmex",
+            "Gascom"
+        ]
+    },
+    {
+        "Which American university has a satellite campus in Luxembourg?": [
+            "Miami University",
+            "University of Miami",
+            "Boston University",
+            "Our Lady of the Lake University"
+        ]
+    },
+    {
+        "Most foreign nationals in Luxembourg are from:": [
+            "Portugal",
+            "France",
+            "Germany",
+            "Belgium"
+        ]
+    },
+    {
+        "What is the most popular religion in Luxembourg?": [
+            "Roman Catholic",
+            "Protestant",
+            "Muslim",
+            "Buddhist"
+        ]
+    },
+    {
+        "How many airports with paved runways are in Luxembourg?": [
+            "One airport",
+            "Two aiports",
+            "Three airports",
+            "Luxembourg has no airports."
+        ]
+    },
+    {
+        "What is the percentage of Luxembourgers within the total population of the country?": [
+            "About 54 percent",
+            "About 63 percent",
+            "Less than 42 percent",
+            "About 73 percent"
+        ]
+    },
+    {
+        "What was the legal minimum monthly salary for non-qualified adults in Luxembourg in 2015?": [
+            "About 1992 euros",
+            "More than 2000 euros",
+            "About 1526 euros",
+            "Less than 1500 euros"
+        ]
+    },
+    {
+        "What is the yearly cost to study information technology at the University of Luxembourg?": [
+            "800 euros",
+            "5000 euros",
+            "15000 euros",
+            "35000 euros"
+        ]
+    },
+    {
+        "What is the name of the most popular passenger airline in Luxembourg?": [
+            "Luxair Luxembourg Airline",
+            "Airlux",
+            "Luxus Air",
+            "Air Luxembourg"
+        ]
+    },
+    {
+        "Which of the following companies has European headquarters in Luxembourg?": [
+            "Skype",
+            "Pepsi-Cola",
+            "Siemens",
+            "Kraft Foods"
+        ]
+    },
+    {
+        "Which of the following companies has European headquarters in Luxembourg?": [
+            "Amazon",
+            "Dell Computers",
+            "IBM",
+            "Mac Donalds"
+        ]
+    },
+    {
+        "Which of the following companies has European headquarters in Luxembourg?": [
+            "Skype",
+            "Pepsi-Cola",
+            "Siemens",
+            "Casio"
+        ]
+    },
+    {
+        "Which of the following companies have European headquarters in Luxembourg?": [
+          "Apple iTunes",
+          "BMW",
+          "Kimberly Clark",
+          "JVC"
+        ]
+    },
+    {
+        "Which statement is true?": [
+            "The European Court of Justice is based in Luxembourg.",
+            "The European Council is based in Luxembourg.",
+            "The European Commission is based in Luxembourg.",
+            "Luxembourg is not a member of the Europen Union."        ]
+    },
+    {
+        "What major cargo airline is based in Luxembourg?": [
+            "Cargolux",
+            "Lux Cargo",
+            "FedEx",
+            "Lufthansa"
+        ]
+    },
+    {
+        "The Luxembourg American Culutural Center is located in:": [
+            "Belgium, Wisconsin",
+            "Luxembourg, Wisconsin",
+            "New York",
+            "Chicago"
+        ]
+    },
+    {
+        "How many soldiers are in the Luxembourg military?": [
+            "About 800",
+            "About 2000",
+            "About 3000",
+            "Luxembourg has no military."
+        ]
+    }
 ];
 
 // Route the incoming request based on type (LaunchRequest, IntentRequest,
@@ -380,7 +382,7 @@ function onSessionEnded(sessionEndedRequest, session) {
 
 var ANSWER_COUNT = 4;
 var GAME_LENGTH = 5;
-var CARD_TITLE = "Trivia"; // Be sure to change this for your skill.
+var CARD_TITLE = "Luxembourg Trivia Game"; // Be sure to change this for your skill.
 
 function getWelcomeResponse(callback) {
     var sessionAttributes = {},
